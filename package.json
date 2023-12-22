@@ -1,0 +1,51 @@
+{
+  "name": "claudia7",
+  "private": true,
+  "version": "0.0.3",
+  "description": "Trying this claudia bot thing out again",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "deploy": "claudia create --version dev --region us-east-1 --api-module bot --api-module api --proxy-api",
+    "release": "claudia set-version --version production",
+    "create": "claudia create --region us-east-1 --api-module bot --api-module api",
+    "configure-facebook": "claudia update --configure-fb-bot",
+    "configure-skype": "claudia update --configure-skype-bot",
+    "configure-telegram": "claudia update --configure-telegram-bot",
+    "configure-slack": "claudia update --configure-slack-slash-command",
+    "configure-whatsapp": "claudia update --configure-whatsapp-slash-command",
+    "configure-youtube": "claudia update --configure-youtube-slash-command",
+    "configure-x": "claudia update --configure-x-slash-command",
+    "start": "ntl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lostboyz923/aws-bot-with-buttons.git"
+  },
+  "keywords": [
+    "First",
+    "rule",
+    "of",
+    "fight",
+    "club",
+    "don't",
+    "talk",
+    "about",
+    "fight",
+    "club"
+  ],
+  "author": "Miller Time",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/lostboyz923/aws-bot-with-buttons/issues"
+  },
+  "homepage": "https://github.com/lostboyz923/aws-bot-with-buttons#readme",
+  "dependencies": {
+    "claudia-api-builder": "^4.1.2",
+    "claudia-bot-builder": "^4.5.0",
+    "express": "^4.18.2",
+    "huh": "^2.0.1",
+    "ntl": "^5.1.0",
+    "superb": "^4.0.0"
+  }
+}

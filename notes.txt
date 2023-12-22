@@ -1,0 +1,29 @@
+
+28 packages are looking for funding
+rate-limited by AWS, waiting before retry       apigateway.setAcceptHeader
+
+
+Facebook Messenger setup
+
+
+Following info is required for the setup, for more info check the documentation.
+
+
+Your webhook URL is: https://x3sdgboyy8.execute-api.us-east-1.amazonaws.com/latest/facebook
+
+Your verify token is: QQHCssUYtyc
+
+
+During Testing We Must create some fb accounts that are
+granted administrator or developer or tester so we can talk: 
+
+During development you will be able to send messages to 
+anyone that has been granted either the administrator, 
+developer or tester role for your app.
+
+
+CREATING FACEBOOK 
+claudia create --region us-east-1 --api-module bot --configure-fb-bot
+
+
+initialising IAM role   iam.createRole  RoleName=claudia7-executor
